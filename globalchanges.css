@@ -3,11 +3,12 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Nunito');*/
 
 @import 'specialtags.css';
+@import 'specialpages.css';
 
 :root {
   --header-font: "Comfortaa";
   --body-font: "Comfortaa";
-  --main-color: #39B2F6
+  --main-color: #8EC2C2;
 }
 
 .rm-page-ref--link{
