@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap');
 /*@import url('https://fonts.googleapis.com/css2?family=Nunito');*/
 
+@import 'specialtags.css';
+
 :root {
   --header-font: "Comfortaa";
   --body-font: "Comfortaa";
@@ -12,72 +14,12 @@
   color: var(--main-color);
 }
 
+
 body,
 div,
 textarea,
 .level2 {
    font-family: var(--header-font) !important;}
-
-span.rm-page-ref[data-tag="Tel"] {
-    color: #ffffff !important;
-    background-color:  #ccae62 !important;
-    /*border: 1px #000000;
-  	font-weight: bold;*/
-    border-radius: 3px;
-    padding: 1px 5px;
-}
-span.rm-page-ref[data-tag="Ich"] {
-    color: #000000 !important;
-    background-color:  #9EACB7 !important;
-    border: 1px #000000;
-    border-radius: 3px;
-    padding: 1px 4px;
-}
-span.rm-page-ref[data-tag="howTo"] {
-    color: #313131 !important;
-    background-color:  #F5E1A7 !important;
-    border: 1px #000000;
-  	font-weight: bold;
-    border-radius: 3px;
-    padding: 1px 2px;
-}
-span.rm-page-ref[data-tag="inbox"] {
-    color: #FFFFFF !important;
-    background-color:  #FF5722 !important;
-    border: 1px #000000;
-    border-radius: 3px;
-    padding: 1px 10px;
-}
-/*span[data-link-title="mehrwert"] {
-    color: #000000 !important;
-    background-color:  #03A9F4 !important;
-  border-radius: 3px;
-    padding: 1px 5px;
-}*/
-
-span.rm-page-ref[data-tag="mehrwert"] {
-    color: #ffffff !important;
-    background-color:  #4A839D !important;
-    /*border: 1px #000000;
-  	font-weight: bold;*/
-    border-radius: 3px;
-    padding: 1px 5px;
-}
-span.rm-page-ref[data-tag="scheduled"] {
-    color: #4A4A4A !important;
-    background-color:  #FFEB3B !important;
-    /*border: 1px #000000;
-  	font-weight: bold;*/
-    border-radius: 3px;
-    padding: 1px 5px;
-}
-span.rm-page-ref[data-tag="Evergreen"] {
-    color: #FFFFFF !important;
-    background-color:  #577C4B;
-    border: 1px #000000;
-    border-radius: 3px;
-    padding: 1px 4px;
-}
 
 a{
     color: var(--main-color) !Important;
