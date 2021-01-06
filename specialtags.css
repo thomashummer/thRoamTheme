@@ -23,17 +23,11 @@ span.rm-page-ref[data-tag="howTo"] {
 }
 span.rm-page-ref[data-tag="inbox"] {
     color: #FFFFFF !important;
-    background-color:  #FF5722 !important;
+    background-color:  #79301a !important;
     border: 1px #000000;
     border-radius: 3px;
     padding: 1px 10px;
 }
-/*span[data-link-title="mehrwert"] {
-    color: #000000 !important;
-    background-color:  #03A9F4 !important;
-  border-radius: 3px;
-    padding: 1px 5px;
-}*/
 
 span.rm-page-ref[data-tag="mehrwert"] {
     color: #ffffff !important;
